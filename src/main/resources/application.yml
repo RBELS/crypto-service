@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:32768/CryptoServiceDB"
+    username: "postgres"
+    password: "postgrespw"
+  jpa:
+    generate-ddl: true
+
+crypto:
+  currencies:
+    - id: 90
+      symbol: "BTC"
+    - id: 80
+      symbol: "ETH"
+    - id: 48543
+      symbol: "SOL"
